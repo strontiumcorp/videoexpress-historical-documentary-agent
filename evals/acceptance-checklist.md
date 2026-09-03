@@ -1,6 +1,8 @@
 # Acceptance checklist
 
-- [ ] The topic is famous, visually interesting, evidence-based, and not previously produced.
+- [ ] The agent's first response asked the user what historical topic the documentary should cover and waited for the answer.
+- [ ] The agent did not choose the historical topic itself.
+- [ ] The user-supplied topic is evidence-based and was not previously produced.
 - [ ] Research supports all dates, architecture, clothing, tools, technology, and events shown.
 - [ ] Narration is approximately 150–190 words and follows a clear chronological structure.
 - [ ] Ethan Sterling is used unless the user explicitly requested another voice.
@@ -20,5 +22,4 @@
 - [ ] Narration is complete and unmodified on the lower audio track.
 - [ ] Auto Align was applied and no positive gaps exist between clips.
 - [ ] The final visual endpoint matches the narration endpoint exactly; only the final visual clip may be trimmed for a small overrun.
-- [ ] The project was saved as `[Historical Topic] — Ethan Sterling` and left open for review.
-
+- [ ] The project was saved as `[Historical Topic]` only and left open for review.
