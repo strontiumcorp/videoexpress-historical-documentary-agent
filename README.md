@@ -7,10 +7,10 @@ A team-owned system prompt for producing accurate, cinematic, narration-synchron
 1. Open [SYSTEM_PROMPT.md](SYSTEM_PROMPT.md).
 2. Copy the complete prompt into Codex or another browser-capable agent.
 3. Sign in to CloneVoice.ai and VideoExpress.ai through the normal browser login flow.
-4. Give the agent a historical topic, or allow it to choose an unused subject.
+4. Give the agent a historical topic when it asks. The workflow must never choose the topic itself.
 5. Keep the completed VideoExpress project open for review.
 
-The workflow creates an approximately one-minute Ethan Sterling narration, plans historically accurate 16:9 scenes, generates and reviews every clip, aligns the silent visuals with the narration, and saves the finished project.
+The workflow creates an approximately one-minute Ethan Sterling narration, plans historically accurate 16:9 scenes, generates and reviews every clip, aligns the silent visuals with the narration, and saves the project using only the topic name.
 
 ## Contents
 
@@ -21,4 +21,3 @@ The workflow creates an approximately one-minute Ethan Sterling narration, plans
 ## Security
 
 Never place CloneVoice.ai or VideoExpress.ai passwords, GitHub credentials, access tokens, API keys, or browser-session data in this repository. Users should authenticate through the normal browser login flow.
-
