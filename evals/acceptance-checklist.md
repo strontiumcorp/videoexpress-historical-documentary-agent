@@ -1,6 +1,9 @@
 # Acceptance checklist
 
 - [ ] The agent's first response asked the user what historical topic the documentary should cover and waited for the answer.
+- [ ] After receiving the topic, opening or focusing the visible built-in browser was the first production action.
+- [ ] The workflow used only the built-in browser and never used device Chrome, Edge, another external browser, or a hidden browser session.
+- [ ] The built-in browser remained visible beside the conversation throughout production.
 - [ ] The agent did not choose the historical topic itself.
 - [ ] The user-supplied topic is evidence-based and was not previously produced.
 - [ ] Research supports all dates, architecture, clothing, tools, technology, and events shown.
